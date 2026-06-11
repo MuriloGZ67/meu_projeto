@@ -25,6 +25,10 @@ a{
     background color: #B77043;
 }
 
+a:hover{
+    color: burlywood;
+}
+
 footer {
     background-color: #B7714D;
     color: white;
