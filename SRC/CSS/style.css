@@ -47,7 +47,6 @@ section#tudo{
 }
 
 #tudao{
-    flex:1;
     padding-right:30px;
     text-align:left;
     background-color: red;
