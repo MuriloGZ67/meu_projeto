@@ -51,6 +51,6 @@ section#tudo{
     padding-right:30px;
     border-right:2px solid rgba(255,255,255,0.3);
     text-align:left;
-    color: red;
+    background-color: red;
     width: 30%;
 }
