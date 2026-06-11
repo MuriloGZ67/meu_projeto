@@ -34,7 +34,10 @@ body {
 }
 
 #tudo{
-    display: flex; 
+    display: flex;
+    flex-direction: row;
+    aline-itens: center;
+    justify-content: space-between;
 }
 
 .resto{
