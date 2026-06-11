@@ -50,4 +50,5 @@ body {
     border-right:2px solid rgba(255,255,255,0.3);
     text-align:left;
     color: red;
+    width: 60px;
 }
