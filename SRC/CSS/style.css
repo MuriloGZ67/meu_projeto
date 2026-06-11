@@ -40,7 +40,6 @@ section#tudo{
     flex-direction: row;
     aline-itens: center;
     justify-content: space-between;
-    space-between: 2%;
 }
 
 .resto{
