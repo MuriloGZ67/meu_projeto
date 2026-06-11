@@ -33,6 +33,10 @@ body {
     background color: #FFBB89;
 }
 
+#tudo{
+    display: flex; 
+}
+
 .resto{
     
 }
