@@ -33,7 +33,7 @@ body {
     background color: #FFBB89;
 }
 
-#tudo{
+section#tudo{
     display: flex;
     flex-direction: row;
     aline-itens: center;
