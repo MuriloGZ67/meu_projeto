@@ -24,11 +24,8 @@ a:hover{
 
 footer {
     background-color: #B7714D;
-    color: white;
     text-align: center;
     padding: 20px;
-    margin-top: 50px;
-    font-size: 1px;
     position: fixed;
 }
 
