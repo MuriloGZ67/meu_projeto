@@ -36,10 +36,8 @@ body {
 }
 
 #tudao{
-    
-}
-
-section{
-    margin-top: 10%;
-    height: 900px;
+    flex:1;
+    padding-right:30px;
+    border-right:2px solid rgba(255,255,255,0.3);
+    text-align:left;
 }
