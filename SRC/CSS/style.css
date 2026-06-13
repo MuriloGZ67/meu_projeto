@@ -18,7 +18,7 @@ header{
 }
 
 header h1{
-    margin-bottom: 10px;
+    margin-buttom: 10px;
 }
 
 a{
@@ -45,7 +45,7 @@ section#tudo{
     margin: 20px;
     display: flex;
     flex-direction: row;
-    aline-items: center;
+    aline-items: Flexbox;
     justify-content: space-between;
 }
 
@@ -55,7 +55,7 @@ section#tudo{
 
 #tudao{
     padding-right: 30px;
-    text-align:cleft;
+    text-align:left;
     background-color: red;
     width: 20%;
     border-radius: 5px;
