@@ -81,10 +81,18 @@ section#tudo{
     border-radius: 5px;
     box-sizing: border-box;
     position: fixed;
+    top: 140px;
+    left: 20px;
+    width: 22%;
 }
 
 #tudao img{
     width:;
     border-radius: 4px;
     margin-bottom: 10px;  
+}
+
+#tudao a {
+    display: block;
+    background-color: #1C1C1C;
 }
