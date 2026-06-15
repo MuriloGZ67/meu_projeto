@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #E8E8E8;
-    padding-top: 140px;
+    padding-top: 150px;
     padding-bottom: 100px;
     margin: 0;
 }
@@ -71,14 +71,20 @@ section#tudo{
 }
 
 .resto{
-    
+    width: 74%;
 }
 
 #tudao{
-    padding-right: 30px;
+    padding-right: 20px;
     text-align:left;
     background-color: #B22222;
     width: 20%;
     border-radius: 5px;
     box-sizing: border-box;
+}
+
+#tuda0 img{
+    width:;
+    border-radius: 4px;
+    margin-bottom: 10px;  
 }
