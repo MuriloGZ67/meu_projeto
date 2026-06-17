@@ -74,6 +74,7 @@ section#tudo {
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
+    position: relative;
 }
 
 .resto {
