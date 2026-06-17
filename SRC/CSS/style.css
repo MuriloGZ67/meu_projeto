@@ -4,7 +4,7 @@ body {
     color: #333;
     background-color: #E8E8E8;
     padding-top: 150px;
-    padding-bottom: 120px;
+    padding-bottom: 20px;
     margin: 0;
 }
 
@@ -62,13 +62,8 @@ footer {
     text-align: center;
     padding: 30px 20px;
     width: 100%;
-    margin: 0;
-    height: 15%;
+    margin-top: 40px;
     box-sizing: border-box;
-    bottom: 0;
-    left: 0;
-    z-index: 1000;
-}
 
 section#tudo {
     margin: 20px;
@@ -76,6 +71,7 @@ section#tudo {
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
+    min-height: 70vh;
 }
 
 .resto {
