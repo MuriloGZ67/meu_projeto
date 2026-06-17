@@ -44,7 +44,6 @@ header div{
     display: flex;
     align-items: center;
 }
-}
 
 a{
     background-color: #B22222;
@@ -70,7 +69,6 @@ footer {
     botton: 0;
     left: 0;
     position: fixed;
-    box-sizing: border-box;
 }
 
 section#tudo{
