@@ -62,10 +62,14 @@ header a:hover{
 footer {
     background-color: #B22222;
     text-align: center;
-    padding: 20px;
+    padding: 30px 20px;
     width: 100%;
+    margin: 0;
     height: 15%;
-    margin: 0 0 0 0;
+    box-sizing: border-box;
+    botton: 0;
+    left: 0;
+    position: fixed;
     box-sizing: border-box;
 }
 
