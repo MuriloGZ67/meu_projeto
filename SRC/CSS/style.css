@@ -1,105 +1,107 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #E8E8E8;
-    padding-top: 150px;
-    padding-bottom: 20px;
-    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #E8E8E8;
+    padding-top: 150px;
+    padding-bottom: 120px;
+    margin: 0;
 }
 
 header {
-    position: fixed;
-    background-color: #1C1C1C;
-    top: 0;
-    right: 0;
-    height: 120px;
-    width: 100%;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+    position: fixed;
+    background-color: #1C1C1C;
+    top: 0;
+    right: 0;
+    height: 120px;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 header h1 {
-    margin: 0 0 10px 0;
-    color: #ffffff;
+    margin: 0 0 10px 0;
+    color: #ffffff;
 }
 
 header a {
-    display: inline-block;
-    border-radius: 5px;
-    margin-right: 8px;
-    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 8px;
+    text-decoration: none;
 }
 
 header div {
-    background-color: #B22222;
-    width: 100%;
-    height: 60px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
+    background-color: #B22222;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 a {
-    background-color: #B22222;
-    border-radius: 5px;
-    display: inline-block;
-    margin: 5px;
-    color: #FFF;
-    text-decoration: none;
-    padding: 5px 10px;
+    background-color: #B22222;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px;
+    color: #FFF;
+    text-decoration: none;
+    padding: 5px 10px;
 }
 
 header a:hover {
-    color: #838B8B;
+    color: #838B8B;
 }
 
 footer {
-    background-color: #B22222;
-    text-align: center;
-    padding: 30px 20px;
-    width: 100%;
-    margin-top: 40px;
-    box-sizing: border-box;
+    background-color: #B22222;
+    text-align: center;
+    padding: 30px 20px;
+    width: 100%;
+    margin: 0;
+    height: 15%;
+    box-sizing: border-box;
+    z-index: 1000;
+}
 
 section#tudo {
-    margin: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-    min-height: 70vh;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .resto {
-    width: 72%;
-    margin-left: 26%; 
+    width: 72%;
+    margin-left: 26%; 
 }
 
 #tudao {
-    padding: 15px;
-    text-align: left;
-    background-color: #B22222;
-    border-radius: 5px;
-    box-sizing: border-box;
-    position: fixed;
-    top: 140px;
-    left: 20px;
-    width: 22%;
+    padding: 15px;
+    text-align: left;
+    background-color: #B22222;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 140px;
+    left: 20px;
+    width: 22%;
 }
 
 #tudao img {
-    width: 100%;
-    height: auto;
-    border-radius: 4px;
-    margin-bottom: 10px;  
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;  
 }
 
 #tudao a {
-    display: block;
-    background-color: #1C1C1C;
-    margin: 8px 0;
+    display: block;
+    background-color: #1C1C1C;
+    margin: 8px 0;
 }
