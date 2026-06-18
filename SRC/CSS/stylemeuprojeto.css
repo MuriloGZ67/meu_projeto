@@ -96,11 +96,12 @@ section#tudo {
     width: 22%;
 }
 
-#tudao img {
+#tudo img {
     width: 100%;
     height: auto;
     border-radius: 4px;
     margin-bottom: 10px;  
+    transform: scale (0.9) rotate (10px);
 }
 
 #tudao a {
