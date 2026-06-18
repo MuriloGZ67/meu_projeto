@@ -100,4 +100,5 @@ section#tudo {
     width: 100%;
     height: auto; 
     transform: scale (0.9) rotate (5deg);
+    background-color: #E8E8E8;
 }
