@@ -94,6 +94,7 @@ section#tudo {
     top: 140px;
     left: 20px;
     width: 22%;
+    position: sticky;
 }
 
 #tudo img {
