@@ -95,7 +95,7 @@ section#tudo {
     width: 22%;
 }
 
-.divimg {
+.divimg:holver {
     width: 100%;
     height: auto; 
     transform: scale (0.9) rotate (5deg);
