@@ -47,10 +47,13 @@ a {
     background-color: #B22222;
     border-radius: 5px;
     display: inline-block;
-    margin: 5px;
+    margin: 4px;
     color: #FFF;
     text-decoration: none;
     padding: 5px 10px;
+    font-sise: 1.3px;
+    display: block;
+    background-color: #871414;
 }
 
 header a:hover {
@@ -96,11 +99,4 @@ section#tudo {
     width: 100%;
     height: auto; 
     transform: scale (0.9) rotate (5deg);
-}
-
-#tudao a {
-    font-sise: 1.3px;
-    display: block;
-    background-color: #871414;
-    margin: 4px 0;
 }
