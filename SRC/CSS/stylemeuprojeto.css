@@ -4,8 +4,11 @@ body {
     color: #333;
     background-color: #E8E8E8;
     padding-top: 150px;
-    padding-bottom: 120px;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    box-sizing: border-box;
 }
 
 header {
@@ -51,7 +54,7 @@ aside a {
     color: #FFF;
     text-decoration: none;
     padding: 5px 10px;
-    font-sise: 1.3px;
+    font-size: 15px;
     display: block;
     background-color: #871414;
 }
@@ -60,24 +63,12 @@ header a:hover {
     color: #838B8B;
 }
 
-footer {
-    background-color: #B22222;
-    text-align: center;
-    padding: 0 20px;
-    width: 100%;
-    margin: 0;
-    height: 15%;
-    box-sizing: border-box;
-    z-index: 1000;
-    margin-top: auto;
-}
-
-section#tudo {
-    margin: 20px;
+#tudo {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
+    flex: 1;
 }
 
 .resto {
@@ -96,9 +87,27 @@ section#tudo {
     width: 22%;
 }
 
-.divimg:holver {
+.divimg:hover {
     width: 100%;
     height: auto; 
-    transform: scale (0.9) rotate (5deg);
-    background-color: #cacaca;
+    transform: scale(0.9) rotate(1deg);
 }
+
+.divimg{
+     background-color: #d1d0d0;
+     align-items: center;
+}
+
+footer {
+    background-color: #B22222;
+    text-align: center;
+    width: 100%;
+    z-index: 1000;
+    margin-top: auto; 
+    padding: 20px 0;
+}
+
+footer * {
+    margin: 0;
+}
+
