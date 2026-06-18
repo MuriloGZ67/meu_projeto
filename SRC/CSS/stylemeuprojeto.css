@@ -101,7 +101,7 @@ section#tudo {
     height: auto;
     border-radius: 4px;
     margin-bottom: 10px;  
-    transform: scale (0.9) rotate (10px);
+    transform: scale (0.9) rotate (5deg);
 }
 
 #tudao a {
