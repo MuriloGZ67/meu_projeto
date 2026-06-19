@@ -114,6 +114,7 @@ header a:hover {
      border-radius: 0.3125rem;
      overflow: hidden;
      max-width: 31.25rem;
+    flex-direction: column;
 }
 
 .divimg img {
