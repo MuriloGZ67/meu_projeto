@@ -124,6 +124,11 @@ header a:hover {
     transition: transform 0.3s ease;
 }
 
+.divimg a:holver{
+    text-decoration: underline;
+    color: #871414;
+}
+
 .divimg:hover img {
     transform: scale(0.95) rotate(1deg);
 }
