@@ -124,7 +124,7 @@ header a:hover {
     transition: transform 0.3s ease;
 }
 
-.divimg a:holver{
+.divimg:holver h2 {
     text-decoration: underline;
     color: #871414;
 }
