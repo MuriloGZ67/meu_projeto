@@ -90,7 +90,7 @@ header a:hover {
     margin-bottom: 1.25rem;
 }
 
-.resto p:last-child {
+.resto p {
     margin-bottom: 0;
 }
 
@@ -115,7 +115,6 @@ header a:hover {
      overflow: hidden;
      max-width: 31.25rem;
      flex-direction: column;
-     font-size: 0.4.5rem;
 }
 
 .divimg img {
@@ -125,7 +124,7 @@ header a:hover {
     transition: transform 0.3s ease;
 }
 
-.divimg:hover h2 {
+.divimg:hover h3 {
     text-decoration: underline;
     color: #871414;
 }
@@ -136,6 +135,10 @@ header a:hover {
 
 .divimg a{
     color: black;
+}
+
+.divimg h3 {
+    font-size: 0.4.5rem;
 }
 
 footer {
