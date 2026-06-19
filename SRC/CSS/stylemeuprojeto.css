@@ -114,16 +114,16 @@ header a:hover {
      border-radius: 0.3125rem;
      overflow: hidden;
      max-width: 31.25rem;
-     transition: transform 0.3s ease;
 }
 
 .divimg img {
     max-width: 100%;
     height: auto;
     display: block;
+    transition: transform 0.3s ease;
 }
 
-.divimg:hover {
+.divimg:hover img {
     transform: scale(0.95) rotate(1deg);
 }
 
