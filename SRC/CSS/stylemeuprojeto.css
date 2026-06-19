@@ -1,14 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
     background-color: #E8E8E8;
-    padding-top: 9.375rem;
+    padding-top: 7.5rem; /* Ajustado para bater exatamente com a altura do header */
     margin: 0;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    box-sizing: border-box;
 }
 
 header {
@@ -31,11 +34,19 @@ header h1 {
     color: #ffffff;
 }
 
+header div {
+    background-color: #B22222;
+    width: 100%;
+    height: 3.75rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
 header div nav {
     display: flex;
     gap: 0.5rem;
 }
-
 
 header a {
     display: inline-block;
@@ -47,18 +58,40 @@ header a {
     font-size: 0.875rem;
 }
 
-header div {
-    background-color: #B22222;
-    width: 100%;
-    height: 3.75rem;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-}
-
 header a:hover {
     background-color: #A52A2A;
     color: #ffffff;
+}
+
+#tudo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex: 1;
+    width: 100%;
+    max-width: 1200px; /* Evita que o conteúdo estique demais em telas ultra-wide */
+    margin: 0 auto;
+    padding: 1.5rem;
+    gap: 2rem;
+}
+
+#tudao {
+    padding: 0.9375rem; 
+    text-align: left;
+    background-color: #B22222;
+    border-radius: 0.3125rem;
+    position: sticky; /* Mudado de fixed para sticky: não invade o footer */
+    top: 9rem; /* Fica fixo logo abaixo do header ao rolar a página */
+    width: 25%;
+    max-height: calc(100vh - 10rem); /* Evita que o menu passe da tela se tiver muitos links */
+    overflow-y: auto;
+}
+
+#tudao p {
+    color: #FFF;
+    font-weight: bold;
+    margin-top: 0;
 }
 
 #tudao a {
@@ -76,33 +109,18 @@ header a:hover {
     background-color: #5F1010;
 }
 
-#tudo {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-    flex: 1;
-}
-
 .resto {
-    width: 72%;
-    margin-left: 26%; 
+    width: 70%;
     margin-bottom: 1.25rem;
 }
 
-.resto p {
-    margin-bottom: 0;
+.resto h2 {
+    margin-top: 2rem;
+    color: #1C1C1C;
 }
 
-#tudao {
-    padding: 0.9375rem; 
-    text-align: left;
-    background-color: #B22222;
-    border-radius: 0.3125rem;
-    box-sizing: border-box;
-    position: fixed;
-    top: 8.75rem;
-    width: 22%;
+.resto p {
+    margin-bottom: 1rem; /* Adicionado espaço entre os parágrafos */
 }
 
 .divimg {
@@ -124,6 +142,19 @@ header a:hover {
     transition: transform 0.3s ease;
 }
 
+.divimg a {
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem;
+    width: 100%;
+    text-align: center;
+}
+
+.divimg h3 {
+    font-size: 1.45rem;
+    margin: 0.5rem 0;
+}
+
 .divimg:hover a,
 .divimg:hover h3 {
     text-decoration: underline;
@@ -132,15 +163,6 @@ header a:hover {
 
 .divimg:hover img {
     transform: scale(0.95) rotate(1deg);
-}
-
-.divimg a{
-    color: black;
-    text-decoration: none;
-}
-
-.divimg h3 {
-    font-size: 1.45rem;
 }
 
 footer {
@@ -156,4 +178,46 @@ footer * {
     margin: 0;
     color: #FFF;
 }
+
+/* 📱 RESPONSIVIDADE: Ajustes para celular e tablet */
+@media (max-width: 768px) {
+    body {
+        padding-top: 9rem; /* Mais espaço para o cabeçalho que pode quebrar em duas linhas */
+    }
+
+    header {
+        height: auto;
+        padding: 0.5rem 0;
+    }
+
+    header div {
+        height: auto;
+        padding: 0.5rem 0;
+    }
+
+    header div nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #tudo {
+        flex-direction: column; /* Menu e conteúdo viram uma coluna única */
+        padding: 1rem;
+    }
+
+    #tudao {
+        position: static; /* Remove o efeito fixo no celular */
+        width: 100%;
+        max-height: none;
+    }
+
+    .resto {
+        width: 100%;
+    }
+
+    .divimg {
+        max-width: 100%;
+    }
+}
+
 
