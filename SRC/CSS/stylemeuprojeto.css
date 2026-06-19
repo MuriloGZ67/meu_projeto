@@ -170,6 +170,14 @@ footer {
     padding: 0.9375rem 0;
 }
 
+footer h2 {
+    font-size: 0.937rem;
+}
+
+footer h3{
+    font-size: 0.6rem;
+}
+
 footer * {
     margin: 0;
     color: #FFF;
