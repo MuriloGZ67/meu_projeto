@@ -127,6 +127,10 @@ header a:hover {
     transform: scale(0.95) rotate(1deg);
 }
 
+.divimg a{
+    color: black;
+}
+
 footer {
     background-color: #B22222;
     text-align: center;
