@@ -124,6 +124,7 @@ header a:hover {
     transition: transform 0.3s ease;
 }
 
+.divimg:hover a,
 .divimg:hover h3 {
     text-decoration: underline;
     color: #871414;
@@ -135,6 +136,7 @@ header a:hover {
 
 .divimg a{
     color: black;
+    text-decoration: none;
 }
 
 .divimg h3 {
