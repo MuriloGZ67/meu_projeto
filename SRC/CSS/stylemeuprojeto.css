@@ -121,17 +121,16 @@ header a:hover {
 
 .divimg {
      background-color: #d1d0d0;
-     display: flex;
-     justify-content: center;
-     align-items: center;
+     display: block;
      margin: 1.25rem 0;
      border-radius: 0.3125rem;
      overflow: hidden;
      max-width: 31.25rem;
-     flex-direction: column;
+     text-align: center;
 }
 
 .divimg img {
+    width: 100%;
     max-width: 100%;
     height: auto;
     display: block;
@@ -139,9 +138,8 @@ header a:hover {
 }
 
 .divimg figcaption {
-    width: 100%;
-    text-align: center;
     padding: 0.5rem;
+    display: block;
 }
 
 .divimg figcaption a {
@@ -184,8 +182,6 @@ footer * {
     color: #FFF;
 }
 
-/* Ajustes para celular e tablet e o rem ajuda */
-
 @media (max-width: 768px) {
     body {
         padding-top: 9rem;
@@ -222,4 +218,3 @@ footer * {
         max-width: 100%;
     }
 }
-
